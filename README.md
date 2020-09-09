@@ -12,11 +12,8 @@ For the record, here is the list of dependencies :
 
 ## Usage ##
 
-When the program has been built thanks to CMake and Make, just run `./icpSparse -h` in order to see the help.
 
-Other useful lines : 
-
-* `./icpSparse source.obj target.obj source_regist.pcd (output)
+* `./icpSparse source.obj target.obj source_regist.pcd (output) p_norm (0.4) iterations (30 or 1000)
 ## Reference ##
 
 Bouaziz, Sofien, Andrea Tagliasacchi, et Mark Pauly. « Sparse Iterative Closest Point ». In Proceedings of the Eleventh Eurographics/ACMSIGGRAPH Symposium on Geometry Processing, 113–123. SGP ’13. Aire-la-Ville, Switzerland, Switzerland: Eurographics Association, 2013. doi:10.1111/cgf.12178.
